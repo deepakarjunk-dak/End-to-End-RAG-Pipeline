@@ -22,11 +22,11 @@ This repository explores RAG at increasing levels of sophistication. Each module
 ### Core RAG Flow (Modules 1–3)
 
 ```
-  ┌─────────────────────────────────────────────────────────┐
-  │                     DATA INGESTION                       │
-  │  PDF / TXT / Directory  →  Loader  →  Text Splitter     │
+  ┌─────────────────────────────────────────────────────────────┐
+  │                     DATA INGESTION                          │
+  │  PDF / TXT / Directory  →  Loader  →  Text Splitter         │
   │         (LangChain Loaders)    (RecursiveCharacterSplitter) │
-  └───────────────────────┬─────────────────────────────────┘
+  └───────────────────────┬─────────────────────────────────────┘
                           │  chunks
                           ▼
   ┌─────────────────────────────────────────────────────────┐
@@ -37,9 +37,9 @@ This repository explores RAG at increasing levels of sophistication. Each module
                           │  vectors
                           ▼
   ┌─────────────────────────────────────────────────────────┐
-  │                   VECTOR STORE                           │
-  │   ChromaDB  ──or──  MongoDB Atlas  ──or──  Typesense     │
-  │   (local)          (cloud)               (hybrid search) │
+  │                   VECTOR STORE                          │
+  │   ChromaDB  ──or──  MongoDB Atlas  ──or──  Typesense    │
+  │   (local)          (cloud)               (hybrid search)│
   └───────────────────────┬─────────────────────────────────┘
                           │
           ┌───────────────┴───────────────┐
@@ -55,9 +55,9 @@ This repository explores RAG at increasing levels of sophistication. Each module
                           │
                           ▼
   ┌─────────────────────────────────────────────────────────┐
-  │                  LLM GENERATION                          │
+  │                  LLM GENERATION                         │
   │       Groq API  →  Llama-3.1-8b-instant                 │
-  │   Context + Query  →  Grounded Answer                    │
+  │   Context + Query  →  Grounded Answer                   │
   └─────────────────────────────────────────────────────────┘
 ```
 
