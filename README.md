@@ -30,9 +30,9 @@ This repository explores RAG at increasing levels of sophistication. Each module
                           │  chunks
                           ▼
   ┌─────────────────────────────────────────────────────────┐
-  │                     EMBEDDING                            │
-  │     SentenceTransformer / HuggingFaceEmbeddings          │
-  │          (all-MiniLM-L6-v2  →  384-dim vectors)          │
+  │                     EMBEDDING                           │
+  │     SentenceTransformer / HuggingFaceEmbeddings         │
+  │          (all-MiniLM-L6-v2  →  384-dim vectors)         │
   └───────────────────────┬─────────────────────────────────┘
                           │  vectors
                           ▼
@@ -235,5 +235,4 @@ pymupdf
 ## Author
 
 **Deepak Arjun K**  
-BE Mechanical Engineering | PGP Data Science & Generative AI  
-[GitHub](https://github.com/your-username) · [LinkedIn](https://linkedin.com/in/your-profile)
+PGP in Data Science & Generative AI | BE Mechanical Engineering
