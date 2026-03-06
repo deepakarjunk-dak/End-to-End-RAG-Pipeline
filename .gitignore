@@ -1,0 +1,7 @@
+.venv/
+.env
+__pycache__/
+.ipynb_checkpoints/
+data/vector_store/
+*.zip
+01_document_pipeline/data/vector_store/

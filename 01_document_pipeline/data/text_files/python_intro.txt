@@ -1,0 +1,6 @@
+Python Programming Introduction
+
+Python is a high-level, interpreted programming language known for its simplicity, readability, and versatility. 
+Created by Guido van Rossum and first released in 1991, Python was designed with an emphasis on clear syntax and code readability. 
+Its clean structure allows developers to express complex logic using fewer lines of code compared to many other programming languages. 
+Because of this, Python is widely recommended as a first programming language for beginners while also being powerful enough for advanced software development.

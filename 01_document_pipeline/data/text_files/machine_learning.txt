@@ -1,0 +1,5 @@
+Machine Learning Basics 
+Machine learning is a subset of artificial intelligence that enables systems to learn patterns from data and make predictions or decisions without being explicitly programmed.
+Instead of following fixed rules, machine learning algorithms improve their performance by training on historical data. 
+It primarily includes supervised learning, unsupervised learning, and reinforcement learning techniques. 
+Machine learning is widely used in applications such as recommendation systems, fraud detection, image recognition, and predictive analytics.
